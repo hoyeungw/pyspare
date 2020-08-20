@@ -1,0 +1,6 @@
+aryth>=0.0.5
+intype>=0.0.2
+ject>=0.0.1
+palett>=0.0.4
+texting>=0.0.3
+veho>=0.0.4
