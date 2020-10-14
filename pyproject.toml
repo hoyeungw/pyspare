@@ -19,13 +19,15 @@ keywords = [
 python = "^3.8"
 aryth = ">=0.0.6"
 intype = ">=0.0.2"
-ject = ">=0.0.1"
+ject = ">=0.0.3"
 palett = ">=0.0.4"
 veho = ">=0.0.4"
-texting = ">=0.0.8"
+texting = ">=0.0.9"
+crostab = ">=0.0.5"
 
 [tool.poetry.dev-dependencies]
 pytest = ">=6.0.0"
+foba = ">=0.0.5"
 
 [build-system]
 requires = ["poetry>=0.12"]

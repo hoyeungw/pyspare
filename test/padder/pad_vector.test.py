@@ -1,6 +1,6 @@
 from texting import LF
 
-from pyspare.padder.pad_vector import pad_vector
+from pyspare.padder.vector_padder import vector_padder
 
 candidates = {
     'cities': ['paris', 'london', 'tokyo', 'delhi', 'vienna']
@@ -10,7 +10,7 @@ candidates = {
 def test():
     for key, vec in candidates.items():
         print(key)
-        padded = pad_vector(vec)
+        padded = vector_padder(vec)
         print(LF.join(['\'' + word + '\'' for word in padded]))
 
 

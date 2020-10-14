@@ -1,6 +1,6 @@
 from texting import COSP, LF
 
-from pyspare.padder.pad_entries import pad_entries
+from pyspare.padder.entries_padder import entries_padder
 
 candidates = {
     'cities': [
@@ -16,7 +16,7 @@ candidates = {
 def test():
     for key, vec in candidates.items():
         print(key)
-        padded = pad_entries(vec)
+        padded = entries_padder(vec)
         print(LF.join(['(' + key + COSP + value + ')' for key, value in padded]))
 
 

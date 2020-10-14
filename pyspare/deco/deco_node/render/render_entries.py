@@ -3,7 +3,7 @@ from veho.vector import mutate
 
 from pyspare.deco.deco_node import mutate_key_pad
 from texting import join_lines
-from pyspare.padder.pad_string import to_lpad
+from pyspare.padder.string_padder import to_lpad
 
 lpad = to_lpad(fill=SP, ansi=True)
 
