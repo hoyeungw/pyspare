@@ -25,11 +25,12 @@ def deco_entries(
         bracket: int = BRK,
         inner_bracket: int = PAR,
         ansi: bool = False,
-        dash: str = COSP
+        dash: str = COSP,
+        rule: tuple = (ELLIP, ELLIP)
 ):
     size = length(entries)
     if not size: return str(entries)
-    entries = entries_margin(entries, head, tail, key_read, read, ELLIP)
+    entries = entries_margin(entries, head, tail, key_read, read, rule)
     if delim.find(LF) >= 0: entries = entries_padder(entries, ansi)
     if presets: entries = fluo_entries(entries, presets, effects, colorant=False, mutate=True)
     br = to_br(inner_bracket) or oneself
