@@ -1,8 +1,6 @@
 from aryth.bound_vector import max_by
-from texting import SP, lange
+from texting import SP, lange, to_pad
 from veho.vector import duozipper, trizipper
-
-from pyspare.padder.string_padder import to_pad
 
 
 def vector_padder(text, raw=None, dye=None, ansi=False, fill=SP):

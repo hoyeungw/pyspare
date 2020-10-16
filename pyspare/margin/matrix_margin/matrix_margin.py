@@ -37,10 +37,10 @@ class MatrixMargin:
         return self.map(fn, mutate)
 
     def to_matrix(self, el):
-        mx, tp, bt, lf, rt = self.matrix, self.top, self.bottom, self.left, self.right
-        dash_x, dash_y = bool(bt), bool(rt)
-        upper = [marginal(row, lf, rt, dash_y and el) for row in mx[:tp]] if tp else []
-        lower = [marginal(row, lf, rt, dash_y and el) for row in mx[-bt:]] if bt else []
+        matrix, top, bottom, left, right = self.matrix, self.top, self.bottom, self.left, self.right
+        dash_x, dash_y = bool(bottom), bool(right)
+        upper = [marginal(row, left, right, dash_y and el) for row in matrix[:top]] if top else []
+        lower = [marginal(row, left, right, dash_y and el) for row in matrix[-bottom:]] if bottom else []
         w = size(upper)[1] or size(lower)[1]
         blank_line = [[el] * w] if w and dash_x and el else []
         return upper + blank_line + lower

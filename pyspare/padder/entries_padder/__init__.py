@@ -1,8 +1,6 @@
 from aryth.bound_entries import max_by
-from texting import SP, lange
+from texting import SP, lange, to_lpad, to_pad
 from veho.entries import mapper
-
-from pyspare.padder.string_padder import to_lpad, to_pad
 
 
 def entries_padder(text, ansi=False, fill=SP):

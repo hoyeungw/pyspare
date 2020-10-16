@@ -6,6 +6,7 @@ from veho.enum.matrix_directions import COLUMNWISE
 from veho.matrix import size
 from veho.vector import zipper
 
+from pyspare import deco_matrix, deco_vector
 from pyspare.margin.crostab_margin import crostab_margin
 from pyspare.padder.crostab_padder import crostab_padder
 
@@ -29,6 +30,9 @@ def deco_crostab(crostab: Crostab,
     label_height, label_width = len(crostab.side), len(crostab.head)
     if not height or not width or not label_width or not label_height: return AEU
     crostab = crostab_margin(crostab, top, bottom, left, right, height, width, read, side_read, head_read, rule)
+    # print(deco_vector(crostab.head))
+    # print(deco_vector(crostab.side))
+    # print(deco_matrix(crostab.rows))
     crostab = crostab_padder(crostab, ansi, full_angle)
     if presets:
         # vector_presets = (presets[0], presets[1])

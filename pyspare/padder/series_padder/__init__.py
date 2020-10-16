@@ -1,9 +1,7 @@
 from aryth.bound_vector import max_by
 from crostab import Series
-from texting import DA, lange
+from texting import DA, lange, to_lpad, to_rpad
 from veho.vector import mapper
-
-from pyspare.padder.string_padder import to_lpad, to_rpad
 
 
 def series_padder(series: Series, ansi, full_angle):
@@ -16,5 +14,5 @@ def series_padder(series: Series, ansi, full_angle):
         rule=DA * pad,
         points=mapper(series.points, lambda x: lpad(x, pad))
     )
-    print(series)
+    # print(series)
     return series

@@ -1,11 +1,9 @@
 from aryth.bound_vector import max_by
 from crostab import Table
-from texting import DA, SP, lange
+from texting import DA, SP, lange, to_pad
 from veho.columns import mapper as mapper_columns
 from veho.matrix.enumerate import mapper as mapper_matrix
 from veho.vector import mapper, zipper
-
-from pyspare.padder.string_padder import to_pad
 
 
 def table_padder(table: Table, ansi=False, full_angle=False, fill=SP):

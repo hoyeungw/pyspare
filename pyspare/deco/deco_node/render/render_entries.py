@@ -1,9 +1,7 @@
-from texting import CO, COSP, RTSP, SP, lange
+from texting import CO, COSP, RTSP, SP, join_lines, lange, to_lpad
 from veho.vector import mutate
 
 from pyspare.deco.deco_node import mutate_key_pad
-from texting import join_lines
-from pyspare.padder.string_padder import to_lpad
 
 lpad = to_lpad(fill=SP, ansi=True)
 
