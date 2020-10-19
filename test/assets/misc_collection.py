@@ -22,6 +22,11 @@ vectors = {
     'alphabetical': init(4, 7, lambda x, y: chr(63 + (x * 7) + y)),
 }
 
+dicts = {
+    'void_dict': {},
+    'simple_dict': {'foo': 1, 'bar': 2}
+}
+
 misc = {
     'lambda': lambda x: str(x)
 }
@@ -34,6 +39,7 @@ objects = {
 misc_candidates = {
     **basics,
     **vectors,
+    **dicts,
     **misc,
     **objects
 }

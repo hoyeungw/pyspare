@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyspare"
-version = "0.0.4"
+version = "0.0.5"
 description = "pretty print"
 authors = ["Hoyeung Wong <hoyeungw@outlook.com>"]
 license = "MIT"

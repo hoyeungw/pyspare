@@ -6,7 +6,7 @@ from texting import brace, bracket, parenth
 from veho.entries import mutate_values
 from veho.vector import mutate
 
-from pyspare.deco.deco_node.helpers.mutate_key_pad import mutate_key_pad
+from pyspare.deco.deco_node.helpers import mutate_key_pad
 from pyspare.deco.deco_node.preset import DecoPreset
 from pyspare.deco.deco_node.render import render_entries, render_vector
 
@@ -35,6 +35,7 @@ def de_ve(self, vector, lv):
 
 
 def de_en(self, entries, lv):
+    if not len(entries): return ''
     key_wd = mutate_key_pad(entries)
     mutate_values(entries, lambda v: str(deco_node(self, v, lv + 1, key_wd)))
     if self.presets: fluo_entries(entries, self.presets, mutate=True)
