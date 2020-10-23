@@ -56,7 +56,7 @@ veho = ">=0.0.4"
 
 [[package]]
 name = "foba"
-version = "0.0.6"
+version = "0.0.7"
 description = "placeholder sample objects for test"
 category = "dev"
 optional = false
@@ -104,7 +104,7 @@ six = "*"
 
 [[package]]
 name = "palett"
-version = "0.0.4"
+version = "0.0.5"
 description = "pretty text for command line"
 category = "main"
 optional = false
@@ -112,6 +112,7 @@ python-versions = ">=3.8,<4.0"
 
 [package.dependencies]
 aryth = ">=0.0.5"
+crostab = ">=0.0.5"
 intype = ">=0.0.2"
 ject = ">=0.0.1"
 veho = ">=0.0.4"
@@ -228,16 +229,18 @@ attrs = [
 ]
 colorama = [
     {file = "colorama-0.4.4-py2.py3-none-any.whl", hash = "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"},
+    {file = "colorama-0.4.4.tar.gz", hash = "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"},
 ]
 crostab = [
     {file = "crostab-0.0.5-py3-none-any.whl", hash = "sha256:6596ef6f0f6bc75046c7ca69d86501f342e01ceaba06e8db7d137c10e04f3a3d"},
     {file = "crostab-0.0.5.tar.gz", hash = "sha256:16bc76f145ab1784670da7e88c9ea76ebc4eb19a69f3d6f677ae5052d87bd0a8"},
 ]
 foba = [
-    {file = "foba-0.0.6-py3-none-any.whl", hash = "sha256:7f306b62ba8e16b0856576f47d1c41d1b81371afaaa29df27f1810e9d5398595"},
-    {file = "foba-0.0.6.tar.gz", hash = "sha256:0687b64fb17a3f02f366a52baff7f912602165791b1a3e48389d933cac87f5f3"},
+    {file = "foba-0.0.7-py3-none-any.whl", hash = "sha256:244f771b4fb29c8887f7efd24785e7375c2d42bec5956434507ea51d17a05101"},
+    {file = "foba-0.0.7.tar.gz", hash = "sha256:7374ae759a4e91bf3d50ca3d0ac894e6f5a86b900a3ab0f39c22740ce47dc764"},
 ]
 iniconfig = [
+    {file = "iniconfig-1.1.1-py2.py3-none-any.whl", hash = "sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3"},
     {file = "iniconfig-1.1.1.tar.gz", hash = "sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"},
 ]
 intype = [
@@ -253,8 +256,8 @@ packaging = [
     {file = "packaging-20.4.tar.gz", hash = "sha256:4357f74f47b9c12db93624a82154e9b120fa8293699949152b22065d556079f8"},
 ]
 palett = [
-    {file = "palett-0.0.4-py3-none-any.whl", hash = "sha256:25050e3973aec73d0c952999502dcabd5633d0dd06d61ed507517bb8f064feb3"},
-    {file = "palett-0.0.4.tar.gz", hash = "sha256:3e69195db2f109519b5839dcb0cc11327677f77fc68f6ef45dcbda01d18f7b9c"},
+    {file = "palett-0.0.5-py3-none-any.whl", hash = "sha256:5484a215fb9cc26400080ef002b8446721fecb011b89920e55ba7175908bb79b"},
+    {file = "palett-0.0.5.tar.gz", hash = "sha256:2eb48b1bd06ac1b23dc41576aa6b266aaa2daa3f84a3c9e1adb87ff4ea233dbf"},
 ]
 pluggy = [
     {file = "pluggy-0.13.1-py2.py3-none-any.whl", hash = "sha256:966c145cd83c96502c3c3868f50408687b38434af77734af1e9ca461a4081d2d"},

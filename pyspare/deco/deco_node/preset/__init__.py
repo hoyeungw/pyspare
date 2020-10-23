@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Tuple
 
-from palett import Preset
+from palett.structs import Preset
 from palett.presets import AZURE, MOSS
 
 

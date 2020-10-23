@@ -1,7 +1,8 @@
 from typing import Callable, List, Tuple
 
 from ject import oneself
-from palett import Preset, fluo_entries
+from palett import fluo_entries
+from palett.structs import Preset
 from palett.presets import FRESH, PLANET
 from texting import COLF, COSP, ELLIP, LF, liner, to_br
 from texting.enum.brackets import BRK, PAR
