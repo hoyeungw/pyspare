@@ -3,7 +3,7 @@ from functools import partial
 
 from palett import fluo_vector
 from palett.presets import ATLAS, SUBTLE
-from texting import LF, TB, fold, has_ansi, ripper
+from texting import LF, TB, fold, has_ansi, ripper, VO
 from texting.enum.regexes import LITERAL
 
 splitter = partial(ripper, re.compile(LITERAL))
@@ -34,4 +34,4 @@ def deco_str(
 def fluo_string(text, presets, effects, vectify, joiner):
     words = vectify(text)
     fluo_vector(words, presets, effects, mutate=True)
-    return joiner(words) if joiner else ''.join(words)
+    return joiner(words) if joiner else VO.join(words)
