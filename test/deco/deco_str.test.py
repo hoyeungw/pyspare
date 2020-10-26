@@ -1,3 +1,4 @@
+from palett.enum.font_effects import BOLD
 from texting import bracket
 
 from pyspare.deco.deco_str import deco_str
@@ -9,7 +10,11 @@ candidates = {
 
 def test():
     for key, text in candidates.items():
-        print(bracket(key), deco_str(text, first_line_indent=len(key) + 3))
+        print(bracket(key),
+              deco_str(text,
+                       first_line_indent=len(key) + 3,
+                       effects=(BOLD,)
+                       ))
 
 
 test()

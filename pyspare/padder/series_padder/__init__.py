@@ -1,4 +1,4 @@
-from aryth.bound_vector import max_by
+from aryth.bound.vector import max_by
 from crostab import Series
 from texting import DA, lange, to_lpad, to_rpad
 from veho.vector import mapper

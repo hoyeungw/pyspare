@@ -1,5 +1,5 @@
 from test.assets import vector_collection
-from pyspare.deco.deco_vector.deco_vector import deco_vector
+from pyspare.deco.deco_vector import deco_vector
 
 
 def test():

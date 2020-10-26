@@ -1,4 +1,4 @@
-from aryth.bound_vector import max_by
+from aryth.bound.vector import max_by
 from texting import SP, lange, to_pad
 from veho.vector import duozipper, trizipper
 

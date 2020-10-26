@@ -1,4 +1,4 @@
-from aryth.bound_entries import max_by
+from aryth.bound.entries import max_by
 from texting import SP, lange, to_lpad, to_pad
 from veho.entries import mapper
 

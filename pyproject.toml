@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyspare"
-version = "0.0.7"
+version = "0.0.8"
 description = "pretty print"
 authors = ["Hoyeung Wong <hoyeungw@outlook.com>"]
 license = "MIT"
@@ -17,10 +17,10 @@ keywords = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
-aryth = ">=0.0.6"
+aryth = ">=0.0.11"
 intype = ">=0.0.2"
 ject = ">=0.0.3"
-palett = ">=0.0.4"
+palett = ">=0.0.11"
 veho = ">=0.0.4"
 texting = ">=0.0.9"
 crostab = ">=0.0.5"

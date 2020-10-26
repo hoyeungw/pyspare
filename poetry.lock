@@ -1,6 +1,6 @@
 [[package]]
 name = "aryth"
-version = "0.0.7"
+version = "0.0.11"
 description = "numerical & statistics functions"
 category = "main"
 optional = false
@@ -104,14 +104,14 @@ six = "*"
 
 [[package]]
 name = "palett"
-version = "0.0.10"
+version = "0.0.11"
 description = "pretty text for command line"
 category = "main"
 optional = false
 python-versions = ">=3.8,<4.0"
 
 [package.dependencies]
-aryth = ">=0.0.5"
+aryth = ">=0.0.10"
 crostab = ">=0.0.6"
 intype = ">=0.0.2"
 ject = ">=0.0.1"
@@ -213,12 +213,12 @@ ject = ">=0.0.3,<0.0.4"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "6b99c275d33e786c515819247c6b197575450e0cc93b050455326de3b4db029f"
+content-hash = "6a5bfdb266fc07ee46d4bfbe1ab746c5a9b8db8f77665c66bbf8837ae1f4961d"
 
 [metadata.files]
 aryth = [
-    {file = "aryth-0.0.7-py3-none-any.whl", hash = "sha256:11e8d6336e47fa185efec94b2c71ebdb7ebcb93339af299f8ac3302f51bf1427"},
-    {file = "aryth-0.0.7.tar.gz", hash = "sha256:3d28afd856c5a1d73378e290c4f8af053534aa592a41889c3e10876d592410e5"},
+    {file = "aryth-0.0.11-py3-none-any.whl", hash = "sha256:a70f2f5d23cd76bff8225ae0706bc1cc0a194e98a03aa2e3a84cf5dae3e476fd"},
+    {file = "aryth-0.0.11.tar.gz", hash = "sha256:0cb910987b6f9845e565f9c93a377ac783c1b82917e1fb5a76506c15eaaa694b"},
 ]
 atomicwrites = [
     {file = "atomicwrites-1.4.0-py2.py3-none-any.whl", hash = "sha256:6d1784dea7c0c8d4a5172b6c620f40b6e4cbfdf96d783691f2e1302a7b88e197"},
@@ -257,8 +257,8 @@ packaging = [
     {file = "packaging-20.4.tar.gz", hash = "sha256:4357f74f47b9c12db93624a82154e9b120fa8293699949152b22065d556079f8"},
 ]
 palett = [
-    {file = "palett-0.0.10-py3-none-any.whl", hash = "sha256:2c369fdde6f60c6e3f38b91a06cac66859b8fe47063ea566d31b1ca2eb109cff"},
-    {file = "palett-0.0.10.tar.gz", hash = "sha256:3ee98a7fecc1bb214e6b8f030229422b9e75573429609bbae6d658b06001a8f9"},
+    {file = "palett-0.0.11-py3-none-any.whl", hash = "sha256:3967f841e8bfe45e9ae3fa5c7f0e580a1e40475bc1a81492e2888daeb3838442"},
+    {file = "palett-0.0.11.tar.gz", hash = "sha256:5e80100b86f8c20093c6d98c0b53976f93bff0b0de7f221e44dd0340ccc36896"},
 ]
 pluggy = [
     {file = "pluggy-0.13.1-py2.py3-none-any.whl", hash = "sha256:966c145cd83c96502c3c3868f50408687b38434af77734af1e9ca461a4081d2d"},

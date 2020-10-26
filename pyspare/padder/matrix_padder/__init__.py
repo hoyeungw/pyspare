@@ -1,4 +1,4 @@
-from aryth.bound_vector import max_by
+from aryth.bound.vector import max_by
 from texting import SP, lange, to_pad
 from veho.columns import mapper as mapper_columns
 from veho.matrix.enumerate import mapper

@@ -1,7 +1,7 @@
 import re
 from functools import partial
 
-from palett import fluo_vector
+from palett.fluo import fluo_vector
 from palett.presets import ATLAS, SUBTLE
 from texting import LF, TB, fold, has_ansi, ripper, VO
 from texting.enum.regexes import LITERAL
