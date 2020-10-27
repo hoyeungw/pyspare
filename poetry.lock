@@ -104,7 +104,7 @@ six = "*"
 
 [[package]]
 name = "palett"
-version = "0.0.15"
+version = "0.0.16"
 description = "pretty text for command line"
 category = "main"
 optional = false
@@ -257,8 +257,8 @@ packaging = [
     {file = "packaging-20.4.tar.gz", hash = "sha256:4357f74f47b9c12db93624a82154e9b120fa8293699949152b22065d556079f8"},
 ]
 palett = [
-    {file = "palett-0.0.15-py3-none-any.whl", hash = "sha256:707f180f5922f38ce5c187a4530f4b488c67711de1739734970386677cdffc29"},
-    {file = "palett-0.0.15.tar.gz", hash = "sha256:702b18df917b041ba13c5b72c65af539c9b862fa292166bcb64890b3b8b48d37"},
+    {file = "palett-0.0.16-py3-none-any.whl", hash = "sha256:74a04cd151ed05784877b2508dd8f8eb7643afb1a7692e9809a758420402cf57"},
+    {file = "palett-0.0.16.tar.gz", hash = "sha256:82ab9ce56da9b7437e6453a9397f6be721a70b807c6eec30e08c15cf427ca434"},
 ]
 pluggy = [
     {file = "pluggy-0.13.1-py2.py3-none-any.whl", hash = "sha256:966c145cd83c96502c3c3868f50408687b38434af77734af1e9ca461a4081d2d"},
