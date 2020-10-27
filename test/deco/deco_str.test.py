@@ -1,4 +1,5 @@
 from palett.enum.font_effects import BOLD
+from palett.presets import SUBTLE
 from texting import bracket
 
 from pyspare.deco.deco_str import deco_str
@@ -13,6 +14,7 @@ def test():
         print(bracket(key),
               deco_str(text,
                        first_line_indent=len(key) + 3,
+                       presets=SUBTLE,
                        effects=(BOLD,)
                        ))
 

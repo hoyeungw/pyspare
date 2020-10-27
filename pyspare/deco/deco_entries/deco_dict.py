@@ -1,7 +1,7 @@
 from typing import Callable, List, Tuple
 
-from palett.structs import Preset
 from palett.presets import FRESH, PLANET
+from palett.structs import Preset
 from texting import COLF, ELLIP, RTSP
 from texting.enum.brackets import BRC, NONE
 
